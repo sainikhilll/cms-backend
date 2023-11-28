@@ -20,7 +20,7 @@ import com.backend.domain.User;
 import com.backend.service.ApplicationService;
 
 
-@CrossOrigin(origins = "http://localhost:3000,https://colmansys.netlify.app")
+@CrossOrigin(origins = "*")
 @Controller
 @RequestMapping("/collegeManagementSystem")
 public class ApplicationController {
